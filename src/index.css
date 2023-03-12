@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #292929;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-control {
+  display: block;
+  height: 26px;
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0321347a;
+  color: #fff;
+}
+
+.form-control:focus {
+  outline: none;
+  border: 2px solid #3498db;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  width: 10em;
+  margin: 5px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #065082;
+}
+
+.alert {
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 410px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  max-width: 450px;
+  margin: 0 auto;
+  margin-top: 10%;
+  border: rgba(239, 15, 15, 0.2) 4px solid;
+  border-radius: 25px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+span {
+  font-family: "Segoe UI";
+  font-weight: 600;
+  color: #549ecf;
+}
+
+.error-input {
+  animation: shake 0.5s ease-in-out 0s 2;
+  box-shadow: 0 0 0.5em red;
+}
+
+@keyframes shake {
+0% { margin-left: 0rem; }
+25% { margin-left: 0.5rem; }
+75% { margin-left: -0.5rem; }
+100% { margin-left: 0rem; }
+}
+
+.correcto-input {
+  box-shadow: 0 0 10px #4CAF50;
+  border-color: #4CAF50;
+}
